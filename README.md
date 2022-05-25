@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project will serve as a simple boilerplate to build applications with Next JS + Apollo + GraphQL. Therefore I will not need to build it again, just download the code and start.
 
 ## Getting Started
 
@@ -10,25 +10,19 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open the browser and go to http://localhost:3000/
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The project is just that simple. I want to add tailwind or some CSS Framework, but I think it will not be necessary, because the CSS is in Netuno.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Its just a way to get started with projects that requires this kind of technology. I think that will be important for the script automator.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The anti-configuration package that I will create to never write again "create react-app", "create next-app" or something like that.
 
-## Learn More
+Projects today has so many technology that you just take something like 10 of configurations and downloading packages.
 
-To learn more about Next.js, take a look at the following resources:
+Example:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Frontend is like: NextJS + Tailwind/MaterialUI/Chakra or something like that + GraphQL (Apollo/URQL) / Rest API (React Query/SWR or something like that) + Typescript/Javascript.
+  Backend: NodeJs => NestJs/Express/Fastify/Koa + Redis + Prisma/TypeORM/ADONIS/Sequelize + MongoDB/MySQL/PostgreSQL/PlanetScale
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+All those things come with their own configuration and packages to install. That should be more ease maybe with CLI as NestJs does or something else.
